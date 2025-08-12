@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CARVER Live — Risk & Vulnerability Assessment</title>
+  <title>CARVER Live - Risk & Vulnerability Assessment</title>
   <meta name="description" content="Web app for CARVER target analysis, vulnerability assessment, Pa calculator, 5x5 risk matrix, asset prioritization, live monitoring, and report generation. Runs on GitHub Pages or locally."/>
-  <meta name="author" content="M. Nuri Shakoor — ARAC International Inc."/>
+  <meta name="author" content="M. Nuri Shakoor - ARAC International Inc."/>
   <meta name="keywords" content="CARVER, risk assessment, vulnerability assessment, Pa, likelihood impact, 5x5 matrix, critical infrastructure, security, ISO 31000, INSSA, GISF, DBT, CSO"/>
   <!-- Tailwind Play CDN (no build needed) -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -214,7 +214,7 @@
         lines.push('\n## Prioritized Assets')
         const ranked = [...assets].map(a=> withMetrics(a, cfg)).sort((a,b)=> b.rank - a.rank)
         ranked.forEach((a,i)=>{
-          lines.push(`\n${i+1}. **${a.name}**  Sector: ${a.sector}  Pa: ${(a.Pa*100).toFixed(0)}%  L×I: ${a.L}×${a.I}  Total: ${a.total}`)
+          lines.push(`\n${i+1}. **${a.name}**  Sector: ${a.sector}  Pa: ${(a.Pa*100).toFixed(0)}%  LxI: ${a.L}x${a.I}  Total: ${a.total}`)
           lines.push(`   - Scores C:${a.scores.C} A:${a.scores.A} R:${a.scores.R} V:${a.scores.V} E:${a.scores.E} Rz:${a.scores.Rz}`)
           lines.push(`   - DBT: ${(a.dbt||[]).join(', ') || 'n/a'}`)
           lines.push(`   - Owner: ${a.owner || 'n/a'}  Status: ${a.status}`)
@@ -245,7 +245,7 @@
           doc.text(`${i+1}. ${a.name}`, margin, y)
           doc.setFont('helvetica',''); doc.setFontSize(10)
           y+=14
-          doc.text(`Sector: ${a.sector}  Pa: ${(a.Pa*100).toFixed(0)}%  L×I: ${a.L}×${a.I}  Total: ${a.total}`, margin, y)
+          doc.text(`Sector: ${a.sector}  Pa: ${(a.Pa*100).toFixed(0)}%  LxI: ${a.L}x${a.I}  Total: ${a.total}`, margin, y)
           y+=12
           doc.text(`Scores C:${a.scores.C} A:${a.scores.A} R:${a.scores.R} V:${a.scores.V} E:${a.scores.E} Rz:${a.scores.Rz}`, margin, y)
           y+=12
@@ -325,7 +325,7 @@
                   ),
                   React.createElement('div', {className:'text-right'},
                     React.createElement('div', {className:'text-sm font-semibold'}, 'Pa ', (a.Pa*100).toFixed(0),'%'),
-                    React.createElement('div', {className:'text-xs text-gray-500'}, 'L×I ', a.L,'×',a.I)
+                    React.createElement('div', {className:'text-xs text-gray-500'}, 'LxI ', a.L,'x',a.I)
                   )
                 ),
                 React.createElement('div', {className:'flex items-center justify-between mt-2'},
@@ -406,7 +406,7 @@
       return (
         React.createElement('div', {className:'card'},
           React.createElement('div', {className:'flex items-center justify-between'},
-            React.createElement('h2', {className:'text-lg font-semibold'}, '5×5 Risk Matrix'),
+            React.createElement('h2', {className:'text-lg font-semibold'}, '5x5 Risk Matrix'),
             React.createElement('div', {className:'text-sm text-gray-500'}, 'Method: simple averages')
           ),
           React.createElement('div', {className:'mt-4 grid grid-cols-6 gap-2'},
