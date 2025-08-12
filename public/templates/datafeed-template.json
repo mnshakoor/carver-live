@@ -1,0 +1,58 @@
+{
+  "updated": "",
+  "signals": [
+    {
+      "type": "intel",
+      "severity": 3,
+      "summary": "Short note - example threat bulletin",
+      "source": "org-or-feed-name",
+      "url": "https://example.org/bulletin"
+    },
+    {
+      "type": "incident",
+      "assetId": "Asset Name Here",
+      "severity": 2,
+      "summary": "Brief incident description",
+      "source": "ticket-123"
+    },
+    {
+      "type": "cve",
+      "product": "Product Name and Version",
+      "cvss": 9.8,
+      "kev": true,
+      "severity": 5,
+      "summary": "Critical vulnerability example",
+      "source": "nvd-cve-YYYY-NNNN"
+    },
+    {
+      "type": "access",
+      "route": "Corridor or Route",
+      "status": "restricted",
+      "severity": 3,
+      "summary": "Access constraint note",
+      "source": "cluster-update"
+    },
+    {
+      "type": "weather",
+      "severity": 2,
+      "summary": "Flood watch for area",
+      "source": "met-service"
+    },
+    {
+      "type": "economic",
+      "severity": 2,
+      "summary": "Fuel price change",
+      "source": "stats-office"
+    }
+  ],
+  "indicators": {
+    "acled_proximity_high": [
+      "Asset A",
+      "Asset B"
+    ],
+    "kev_products": [
+      "VendorX Gateway 3.2"
+    ],
+    "fx_reserve_months": 1.8
+  }
+}

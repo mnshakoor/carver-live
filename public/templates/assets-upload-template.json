@@ -1,0 +1,29 @@
+{
+  "assets": [
+    {
+      "name": "Water Treatment Plant 1",
+      "sector": "Water and Wastewater Systems",
+      "type": "Plant",
+      "location": "City A",
+      "status": "Open",
+      "owner": "Ops",
+      "last": "2025-08-12",
+      "notes": "Cold chain dependency, river nearby",
+      "scores": {
+        "C": 4,
+        "A": 4,
+        "R": 3,
+        "V": 3,
+        "E": 4,
+        "Rz": 4
+      },
+      "dbt": [
+        "Contamination",
+        "Hazmat Release"
+      ],
+      "watchers": [
+        "cso@example.com"
+      ]
+    }
+  ]
+}
