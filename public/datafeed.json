@@ -1,0 +1,59 @@
+{
+  "updated": "2025-08-12T13:00:00Z",
+  "signals": [
+    {
+      "type": "intel",
+      "severity": 4,
+      "summary": "Threat bulletin for energy substations in Region West",
+      "source": "internal-analyst-note",
+      "url": "https://example.org/bulletins/energy-2025-08"
+    },
+    {
+      "type": "incident",
+      "assetId": "Substation Delta",
+      "severity": 3,
+      "summary": "Unauthorized access attempt recorded.",
+      "source": "soc-ticket-42271"
+    },
+    {
+      "type": "cve",
+      "severity": 5,
+      "product": "VendorX Gateway 3.2",
+      "cvss": 9.8,
+      "kev": true,
+      "summary": "Critical RCE with public exploit",
+      "source": "nvd-cve-2025-12345",
+      "url": "https://example.org/cve/2025-12345"
+    },
+    {
+      "type": "access",
+      "severity": 3,
+      "route": "Corridor B",
+      "status": "restricted",
+      "summary": "Two new checkpoints and extended curfew",
+      "source": "o.OCHA-access",
+      "url": "https://example.org/access/region-update"
+    },
+    {
+      "type": "weather",
+      "severity": 2,
+      "summary": "Flood watch for River Crossing 4 for the next 48 hours",
+      "source": "met-service"
+    },
+    {
+      "type": "economic",
+      "severity": 2,
+      "summary": "Diesel prices up 12% WoW in Region West",
+      "source": "national-stats"
+    }
+  ],
+  "indicators": {
+    "acled_proximity_high": [
+      "Water Treatment Plant 1"
+    ],
+    "kev_products": [
+      "VendorX Gateway 3.2"
+    ],
+    "fx_reserve_months": 1.8
+  }
+}

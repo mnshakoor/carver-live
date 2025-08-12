@@ -1,0 +1,58 @@
+{
+  "updated": "2025-08-12T13:55:05Z",
+  "signals": [
+    {
+      "type": "incident",
+      "assetId": "Water Treatment Plant 1",
+      "severity": 3,
+      "summary": "Unauthorized access attempt detected at Water Treatment Plant 1.",
+      "source": "soc-ticket-demo"
+    },
+    {
+      "type": "intel",
+      "severity": 4,
+      "summary": "Regional threat bulletin mentions critical infrastructure near Substation Delta vicinity.",
+      "source": "analyst-brief-demo"
+    },
+    {
+      "type": "cve",
+      "severity": 5,
+      "product": "VendorX Gateway 3.2",
+      "cvss": 9.8,
+      "kev": true,
+      "summary": "Critical RCE with public exploit. Review perimeter devices at sites handling remote access.",
+      "source": "nvd-cve-2025-12345",
+      "url": "https://example.org/cve/2025-12345"
+    },
+    {
+      "type": "access",
+      "severity": 3,
+      "route": "Corridor B",
+      "status": "restricted",
+      "summary": "Two new checkpoints and an extended curfew window impacting deliveries.",
+      "source": "cluster-update-demo"
+    },
+    {
+      "type": "weather",
+      "severity": 2,
+      "summary": "Flood watch near logistics route serving HQ and SCADA for the next 48 hours.",
+      "source": "met-service-demo"
+    },
+    {
+      "type": "economic",
+      "severity": 2,
+      "summary": "Fuel prices up 12 percent week over week in Region West.",
+      "source": "national-stats-demo"
+    }
+  ],
+  "indicators": {
+    "acled_proximity_high": [
+      "Water Treatment Plant 1",
+      "Substation Delta"
+    ],
+    "kev_products": [
+      "VendorX Gateway 3.2"
+    ],
+    "fx_reserve_months": 1.8
+  }
+}
