@@ -1,0 +1,334 @@
+{
+  "assets": [
+    {
+      "name": "ISM Southward Maneuver Corridor - Macomia to Chiúre",
+      "sector": "Security - Insurgency",
+      "type": "Threat",
+      "location": "Macomia, Quissanga, Ancuabe, Chiúre districts",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-08-03",
+      "notes": "Coordinated southward push with multi-village intimidation, arson, killings, abductions; displacement >50k in Chiúre.",
+      "scores": {
+        "C": 5,
+        "A": 4,
+        "R": 4,
+        "V": 4,
+        "E": 4,
+        "Rz": 5
+      },
+      "dbt": [
+        "Village Raids",
+        "Arson",
+        "Abduction",
+        "Murders"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Attack on Chiúre-Velho Police Station and Jailbreak",
+      "sector": "Law Enforcement",
+      "type": "Threat",
+      "location": "Chiúre-Velho, Ancuabe district",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-24",
+      "notes": "Police fled before attackers arrived; one insurgent freed.",
+      "scores": {
+        "C": 4,
+        "A": 4,
+        "R": 4,
+        "V": 4,
+        "E": 3,
+        "Rz": 4
+      },
+      "dbt": [
+        "Police Station Raid",
+        "Prison Break"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "IED Threat on Macomia Road North of Mucojo",
+      "sector": "Transport Corridors",
+      "type": "Threat",
+      "location": "North of Mucojo, Macomia district",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-25",
+      "notes": "IED damaged FADM vehicle; community warned to avoid stretch beforehand.",
+      "scores": {
+        "C": 4,
+        "A": 3,
+        "R": 3,
+        "V": 4,
+        "E": 4,
+        "Rz": 4
+      },
+      "dbt": [
+        "IED",
+        "Roadside Bombing"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Maritime Kidnappings and Boat Seizures - Nkomangano",
+      "sector": "Maritime",
+      "type": "Threat",
+      "location": "Nkomangano, north of Mocímboa da Praia",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-08-01",
+      "notes": "Two boats and crews taken for ransom.",
+      "scores": {
+        "C": 4,
+        "A": 4,
+        "R": 4,
+        "V": 3,
+        "E": 3,
+        "Rz": 4
+      },
+      "dbt": [
+        "Kidnapping",
+        "Hijacking",
+        "Ransom"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Fuel Theft for Boat Engines - Pangane Littoral",
+      "sector": "Energy and Logistics",
+      "type": "Threat",
+      "location": "Pangane village, Macomia coast",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-29",
+      "notes": "Fuel seized to power small boat mobility and maritime operations.",
+      "scores": {
+        "C": 3,
+        "A": 4,
+        "R": 3,
+        "V": 3,
+        "E": 2,
+        "Rz": 3
+      },
+      "dbt": [
+        "Resource Theft",
+        "Supply Disruption"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Intelligence Collection on Troop Movements - Manica",
+      "sector": "Security Forces",
+      "type": "Threat",
+      "location": "Manica village, near Mucojo",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-29",
+      "notes": "Insurgents queried locals to map soldier movements near Manica.",
+      "scores": {
+        "C": 3,
+        "A": 4,
+        "R": 2,
+        "V": 3,
+        "E": 3,
+        "Rz": 4
+      },
+      "dbt": [
+        "Humint Collection",
+        "Surveillance"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Targeted Killings of Local Force - Magaia",
+      "sector": "Local Defense Forces",
+      "type": "Threat",
+      "location": "Magaia, northern Muidumbe",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-23",
+      "notes": "At least three Local Force members killed; IS claim followed.",
+      "scores": {
+        "C": 4,
+        "A": 3,
+        "R": 4,
+        "V": 3,
+        "E": 3,
+        "Rz": 4
+      },
+      "dbt": [
+        "Ambush",
+        "Targeted Killing"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Militia Vigilantism and Fratricide Risk - Naparama",
+      "sector": "Community Security",
+      "type": "Threat",
+      "location": "Ocua, Namogelia, Catapua, Melija, Nivenevene",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-29",
+      "notes": "Naparama mobilization met by ISM killing at least 14; militia killed two undercover police suspected of being ISM.",
+      "scores": {
+        "C": 4,
+        "A": 4,
+        "R": 4,
+        "V": 3,
+        "E": 3,
+        "Rz": 4
+      },
+      "dbt": [
+        "Irregular Militia Activity",
+        "Misidentification",
+        "Extrajudicial Killing"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Attempted Expansion Toward Nampula via Lúrio River",
+      "sector": "Regional Spillover",
+      "type": "Threat",
+      "location": "Lúrio river crossing to Nampula",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-08-01",
+      "notes": "Attempted crossing reportedly unsuccessful; indicates intent to widen the AOI.",
+      "scores": {
+        "C": 4,
+        "A": 3,
+        "R": 3,
+        "V": 3,
+        "E": 3,
+        "Rz": 3
+      },
+      "dbt": [
+        "Area Expansion",
+        "Border Infiltration"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Information Operations Surge and Sectarian Targeting Risk",
+      "sector": "Information Environment",
+      "type": "Threat",
+      "location": "Online channels tied to operations in Ancuabe and Chiúre",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-08-03",
+      "notes": "13 attack claims and video package; differing posture in Muslim vs Christian communities risks inter-communal tensions.",
+      "scores": {
+        "C": 3,
+        "A": 5,
+        "R": 4,
+        "V": 3,
+        "E": 2,
+        "Rz": 4
+      },
+      "dbt": [
+        "Propaganda",
+        "Psychological Operations",
+        "Incitement"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "N380 Trade Route Insecurity and Escort Dependence",
+      "sector": "Economic Corridors",
+      "type": "Threat",
+      "location": "N380, Mueda to coastal nodes",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-22",
+      "notes": "Business pressure led to reintroduction of military escorts; roadblocks had been planned earlier.",
+      "scores": {
+        "C": 4,
+        "A": 3,
+        "R": 3,
+        "V": 3,
+        "E": 3,
+        "Rz": 4
+      },
+      "dbt": [
+        "Road Ambush",
+        "Supply Chain Disruption"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Multi-Village Attacks East of N1 in Chiúre",
+      "sector": "Civilian Population",
+      "type": "Threat",
+      "location": "Ntonhane, Cinco, Kimila, Mareira, Maririni - Chiúre district",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-31",
+      "notes": "At least five attacks with killings, abductions, and property destruction; displacement concentrated along N1.",
+      "scores": {
+        "C": 5,
+        "A": 4,
+        "R": 4,
+        "V": 4,
+        "E": 4,
+        "Rz": 5
+      },
+      "dbt": [
+        "Village Raids",
+        "Abduction",
+        "Looting",
+        "Arson"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "Resource Acquisition and Coercion - Preaching and Intimidation",
+      "sector": "Community Relations",
+      "type": "Threat",
+      "location": "Macomia and Quissanga villages",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-17",
+      "notes": "Preaching sessions used to intimidate and shape community behavior while avoiding overt violence.",
+      "scores": {
+        "C": 2,
+        "A": 4,
+        "R": 2,
+        "V": 2,
+        "E": 2,
+        "Rz": 3
+      },
+      "dbt": [
+        "Coercive Influence",
+        "Intimidation"
+      ],
+      "watchers": []
+    },
+    {
+      "name": "External Enablement - DRC Pipeline and Comms Leadership",
+      "sector": "External Networks",
+      "type": "Threat",
+      "location": "Cross-border network with DRC; ISM comms led by Suleimani Nguvu",
+      "status": "Open",
+      "owner": "ARAC GSOC",
+      "last": "2025-07-24",
+      "notes": "UN SC reporting flags continued links with DRC and a named comms chief overseeing ISM media ties.",
+      "scores": {
+        "C": 3,
+        "A": 3,
+        "R": 4,
+        "V": 3,
+        "E": 3,
+        "Rz": 3
+      },
+      "dbt": [
+        "Recruitment",
+        "External Support",
+        "Command and Control"
+      ],
+      "watchers": []
+    }
+  ]
+}
